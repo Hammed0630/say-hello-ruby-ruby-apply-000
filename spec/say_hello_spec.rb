@@ -1,7 +1,7 @@
 require_relative './spec_helper'
 
 describe "say_hello" do 
-  def say_hello( name = "Ruby Programer")
+  def say_hello( name = "Ruby Programmer")
     puts "Hello " + name + "!"
   end
   it 'accepts an argument of a name and prints out Hello with that Name' do
